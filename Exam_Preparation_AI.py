@@ -96,9 +96,9 @@ elif tab == "Explain in Urdu":
     text = st.text_area("Enter text to explain in Urdu", height=200)
     if st.button("Explain to Urdu"):
         prompt = (
-            f"Translate the following text to Urdu and explain it in simple terms for a student:\n\n"
+            f"Translate the following text to Urdu (write in roman style) and explain it in simple terms for a student:\n\n"
             f"{text}\n\n"
-            "Output only in Urdu."
+            "Output only in Urdu(write in roman style)."
         )
         with st.spinner("Translating and explaining..."):
             try:
