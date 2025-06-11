@@ -1,5 +1,7 @@
 import streamlit as st
-from transformers import pipeline, MarianMTModel, MarianTokenizer
+from transformers import pipeline
+from transformers import MarianMTModel
+from transformers import MarianTokenizer
 import google.generativeai as genai
 
 st.title("Personalized Exam Preparation AI")
